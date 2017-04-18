@@ -1,6 +1,10 @@
 {% extends 'layouts/base.html' %}
 {% block content %}
 {% for tag in tags %}
-<p>{{ tag.tag }}</p>
+<p>
+<a href="{% url 'tag' tag_id=tag.tag_id %}">
+    {{ tag.tag }}
+</a>
+</p>
 {% endfor %}
 {% endblock %}
