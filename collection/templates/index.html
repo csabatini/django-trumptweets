@@ -1,0 +1,12 @@
+{% extends 'layouts/base.html' %}
+{% block title %}Homepage - {{ block.super}}{% endblock %}
+{% block content %}
+{% for stock in stocks %}
+<h2>
+    <a href="{% url 'stock_detail' slug=stock.slug %}">
+        {{ stock.symbol }}
+    </a>
+</h2>
+<p>{{ stock.name }}</p>
+{% endfor %}
+{% endblock %}
