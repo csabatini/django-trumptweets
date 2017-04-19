@@ -1,6 +1,15 @@
 {% extends 'layouts/base.html' %}
 {% block content %}
-{% for status in status_rows %}
-<p>{{ status }}</p>
-{% endfor %}
+<div class="container">
+    <div class="page-header">
+        <h1>{{ tag.tag}}</h1>
+    </div>
+    {% for row in status_rows %}
+    <div class="row">
+        {% for col in row %}
+        <div class="col-md-4">{{ col.status.text }}</div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div> <!-- /container -->
 {% endblock %}

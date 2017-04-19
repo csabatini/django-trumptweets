@@ -5,13 +5,18 @@ base_url = 'https://trumptweets.slickmobile.us/'
 
 def get_tags():
     r = requests.get(base_url + 'api/v1/tag')
-    return {'tags': r.json()}
+    return r.json()
+
+
+def get_single_tag(tag_id):
+    r = requests.get(base_url + 'api/v1/tag', params={'tag_id': tag_id})
+    return r.json()
 
 
 def get_tag_statuses(tag_id):
     r = requests.get(base_url + 'api/v1/status', params={'tag_id': tag_id})
     status_rows = partition_status_rows(r.json())
-    return {'status_rows': status_rows}
+    return status_rows
 
 
 def partition_status_rows(statuses):
