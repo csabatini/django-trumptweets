@@ -7,12 +7,12 @@
         <h1>What does Trump say about...</h1>
     </div>
 
+    <div class="list-group">
+        {% for tag in tags %}
+        <a href="{% url 'tag' tag_id=tag.tag_id %}" class="list-group-item">
+            {{ tag.tag }} - {{ tag.max_created_at }}<span class="badge">{{ tag.count }}</span>
+        </a>
+        {% endfor %}
+    </div>
 </div> <!-- /container -->
-<div class="list-group">
-    {% for tag in tags %}
-    <a href="{% url 'tag' tag_id=tag.tag_id %}" class="list-group-item">
-        {{ tag.tag }} - {{ tag.max_created_at }}<span class="badge">{{ tag.count }}</span>
-    </a>
-    {% endfor %}
-</div>
 {% endblock %}
