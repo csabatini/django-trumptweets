@@ -3,7 +3,7 @@
 {% for tag in tags %}
 <p>
 <a href="{% url 'tag' tag_id=tag.tag_id %}">
-    {{ tag.tag }}
+    {{ tag.tag }} - {{ tag.max_created_at }} - {{ tag.count }}
 </a>
 </p>
 {% endfor %}
