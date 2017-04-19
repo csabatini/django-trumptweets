@@ -8,11 +8,11 @@
     </div>
 
 </div> <!-- /container -->
-{% for tag in tags %}
-<p>
-    <a href="{% url 'tag' tag_id=tag.tag_id %}">
-        {{ tag.tag }} - {{ tag.max_created_at }} - {{ tag.count }}
+<div class="list-group">
+    {% for tag in tags %}
+    <a href="{% url 'tag' tag_id=tag.tag_id %}" class="list-group-item">
+        {{ tag.tag }} - {{ tag.max_created_at }}<span class="badge">{{ tag.count }}</span>
     </a>
-</p>
-{% endfor %}
+    {% endfor %}
+</div>
 {% endblock %}
