@@ -1,4 +1,6 @@
 {% extends 'layouts/base.html' %}
 {% block content %}
-<p>{{ tag_id }}</p>
+{% for status in status_rows %}
+<p>{{ status }}</p>
+{% endfor %}
 {% endblock %}

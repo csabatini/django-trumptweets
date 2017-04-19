@@ -8,4 +8,5 @@ def index(request):
 
 
 def tag(request, tag_id):
-    return render(request, 'tag.html', {'tag_id': tag_id})
+    status_rows = services.get_tag_statuses(tag_id)
+    return render(request, 'tag.html', status_rows)
