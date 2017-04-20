@@ -5,9 +5,17 @@
         <h1>{{ tag.tag}}</h1>
     </div>
     {% for row in status_rows %}
-    <div class="row">
+    <div class="card-deck">
         {% for col in row %}
-        <div class="col-md-4">{{ col.status.text }}</div>
+        <div class="card">
+            <div class="card-block">
+                <p class="card-text">
+                    {{ col.status.text }}
+                </p>
+
+            </div>
+        </div>
+        <!--</div>-->
         {% endfor %}
     </div>
     {% endfor %}

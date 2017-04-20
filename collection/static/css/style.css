@@ -1,0 +1,22 @@
+/* Show it's not fixed to the top */
+body {
+  min-height: 75rem;
+  background-color: #B2DFDB;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.tc1 { width: 20%; }
+.tc2 { width: 70%; }
+.tc3 { width: 10%; }
+
+.max_created {
+    float: right;
+    text-align: right;
+}
+
+.badge {
+    float: right;
+}

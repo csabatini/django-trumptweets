@@ -6,13 +6,22 @@
     <div class="jumbotron">
         <h1>What does Trump say about...</h1>
     </div>
-
-    <div class="list-group">
+    <table class="list-group">
+        <tbody>
         {% for tag in tags %}
-        <a href="{% url 'tag' tag_id=tag.tag_id %}" class="list-group-item">
-            {{ tag.tag }} - {{ tag.max_created_at }}<span class="badge">{{ tag.count }}</span>
-        </a>
+        <tr class="list-group-item">
+            <td class="tc1">
+                <a href="{% url 'tag' tag_id=tag.tag_id %}">{{ tag.tag }}</a>
+            </td>
+            <td class="tc2">
+                <div class="max_created">{{ tag.max_created_at }}</div>
+            </td>
+            <td class="tc3">
+                <div class="badge badge-default">{{ tag.count }}</div>
+            </td>
+        </tr>
         {% endfor %}
-    </div>
+        </tbody>
+    </table>
 </div> <!-- /container -->
 {% endblock %}
