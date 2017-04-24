@@ -1,0 +1,134 @@
+[
+  {
+    "count": 283,
+    "max_created_at": "Sun, 23 Apr 2017 19:48:16 GMT",
+    "tag": "Hillary Clinton",
+    "tag_id": 1
+  },
+  {
+    "count": 23,
+    "max_created_at": "Sun, 23 Apr 2017 15:42:07 GMT",
+    "tag": "Democrats",
+    "tag_id": 20
+  },
+  {
+    "count": 56,
+    "max_created_at": "Sun, 23 Apr 2017 14:20:12 GMT",
+    "tag": "President Obama",
+    "tag_id": 6
+  },
+  {
+    "count": 8,
+    "max_created_at": "Thu, 13 Apr 2017 13:16:30 GMT",
+    "tag": "Russia",
+    "tag_id": 22
+  },
+  {
+    "count": 25,
+    "max_created_at": "Sat, 01 Apr 2017 13:02:32 GMT",
+    "tag": "Fake News",
+    "tag_id": 21
+  },
+  {
+    "count": 19,
+    "max_created_at": "Sun, 12 Feb 2017 12:14:16 GMT",
+    "tag": "Bernie Sanders",
+    "tag_id": 8
+  },
+  {
+    "count": 9,
+    "max_created_at": "Sun, 29 Jan 2017 21:45:58 GMT",
+    "tag": "Lindsey Graham",
+    "tag_id": 10
+  },
+  {
+    "count": 8,
+    "max_created_at": "Sun, 16 Oct 2016 13:15:03 GMT",
+    "tag": "Bill Clinton",
+    "tag_id": 9
+  },
+  {
+    "count": 20,
+    "max_created_at": "Tue, 26 Jul 2016 12:42:33 GMT",
+    "tag": "Elizabeth Warren",
+    "tag_id": 5
+  },
+  {
+    "count": 4,
+    "max_created_at": "Mon, 25 Jul 2016 21:45:54 GMT",
+    "tag": "Tim Kaine",
+    "tag_id": 18
+  },
+  {
+    "count": 70,
+    "max_created_at": "Tue, 03 May 2016 23:08:44 GMT",
+    "tag": "Ted Cruz",
+    "tag_id": 2
+  },
+  {
+    "count": 6,
+    "max_created_at": "Thu, 28 Apr 2016 11:31:48 GMT",
+    "tag": "Carly Fiorina",
+    "tag_id": 12
+  },
+  {
+    "count": 19,
+    "max_created_at": "Mon, 25 Apr 2016 16:15:58 GMT",
+    "tag": "John Kasich",
+    "tag_id": 7
+  },
+  {
+    "count": 59,
+    "max_created_at": "Wed, 23 Mar 2016 19:49:49 GMT",
+    "tag": "Jeb Bush",
+    "tag_id": 3
+  },
+  {
+    "count": 48,
+    "max_created_at": "Tue, 15 Mar 2016 10:39:06 GMT",
+    "tag": "Marco Rubio",
+    "tag_id": 4
+  },
+  {
+    "count": 4,
+    "max_created_at": "Sat, 05 Mar 2016 16:10:05 GMT",
+    "tag": "Rand Paul",
+    "tag_id": 15
+  },
+  {
+    "count": 6,
+    "max_created_at": "Thu, 19 Nov 2015 13:07:33 GMT",
+    "tag": "Ben Carson",
+    "tag_id": 11
+  },
+  {
+    "count": 4,
+    "max_created_at": "Tue, 03 Nov 2015 14:49:14 GMT",
+    "tag": "Scott Walker",
+    "tag_id": 17
+  },
+  {
+    "count": 4,
+    "max_created_at": "Sun, 13 Sep 2015 13:41:32 GMT",
+    "tag": "George Pataki",
+    "tag_id": 14
+  },
+  {
+    "count": 3,
+    "max_created_at": "Mon, 10 Aug 2015 16:40:15 GMT",
+    "tag": "George W. Bush",
+    "tag_id": 19
+  },
+  {
+    "count": 4,
+    "max_created_at": "Tue, 21 Jul 2015 14:30:52 GMT",
+    "tag": "Rick Perry",
+    "tag_id": 16
+  },
+  {
+    "count": 5,
+    "max_created_at": "Sun, 19 Jul 2015 10:22:11 GMT",
+    "tag": "John McCain",
+    "tag_id": 13
+  }
+]

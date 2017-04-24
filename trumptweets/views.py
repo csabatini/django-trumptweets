@@ -1,14 +1,13 @@
 from django.shortcuts import render
 
-import trumptweets.services
+from trumptweets.services import ApiService
+
+service = ApiService()
 
 
 def index(request):
-    tag_list = trumptweets.services.get_tags()
-    return render(request, 'index.html', {'tags': tag_list})
+    return render(request, 'index.html', service.get_tags())
 
 
 def tag(request, tag_id):
-    tag_info = trumptweets.services.get_single_tag(tag_id)
-    status_rows = trumptweets.services.get_tag_statuses(tag_id)
-    return render(request, 'tag.html', {'tag': tag_info, 'status_rows': status_rows})
+    return render(request, 'tag.html', service.get_tag_statuses(tag_id))

@@ -28,7 +28,9 @@ setup(name='django-trumptweets',
           'Django==1.8.11',
           'requests==2.9.1'
       ],
-      setup_requires=['pytest-runner'],
+      setup_requires=[
+          'pytest-runner==2.11.1'
+      ],
       test_suite='pytest',
       tests_require=[
           'pytest==3.0.7',
