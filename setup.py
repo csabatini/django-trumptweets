@@ -26,6 +26,7 @@ setup(name='django-trumptweets',
       packages=find_packages(),
       install_requires=[
           'Django==1.8.11',
+          'django-compressor==2.1.1',
           'requests==2.9.1'
       ],
       setup_requires=[

@@ -5,9 +5,14 @@ Simple django project to consume the TrumpTweets API @ https://trumptweets.slick
 Usage
 ----
 
-### Install dependencies via pip
+### Install python dependencies via pip
 ```
 pip install -r requirements.txt
+```
+
+### Install static CSS/JavaScript assets
+```
+bower install
 ```
 
 ### Setup virtualenv and run tests
