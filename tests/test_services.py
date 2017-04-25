@@ -69,7 +69,7 @@ def test_get_tag_statuses(service):
     for row in status_rows:
         assert type(row) == list
 
-    # 8 statuses from the mock json array are divided into a 3x3 grid
+    # 8 statuses from the mock json array are divided into a grid of rows with up to 3 columns
     assert len(status_rows[0]) == 3
     assert len(status_rows[1]) == 3
     assert len(status_rows[2]) == 2
