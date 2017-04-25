@@ -1,6 +1,4 @@
-/* Show it's not fixed to the top */
 body {
-  min-height: 75rem;
   background-color: #B2DFDB;
 }
 
@@ -14,9 +12,13 @@ table {
 
 .max_created {
     float: right;
-    text-align: right;
 }
 
 .badge {
     float: right;
+}
+
+.card-deck {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }

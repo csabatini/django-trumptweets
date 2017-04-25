@@ -1,6 +1,7 @@
 .idea/
 .tox/
 .cache/
+.eggs/
 env/
 *.egg-info/
 *.pyc
